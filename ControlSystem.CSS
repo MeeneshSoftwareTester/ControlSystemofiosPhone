@@ -1,0 +1,310 @@
+ .{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-image: url('https://w0.peakpx.com/wallpaper/734/273/HD-wallpaper-iphone-13-mod-iphone-lights-phone-black-iphone-13-mini.jpg');
+    background-position: center;
+    font-size: 8pt;
+    max-height: 146.7mm;
+    height: 100vh;
+    max-width: 71.5mm;
+    justify-content:center ;
+    margin:auto;
+}
+
+#box {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.container {
+    display: inline-block;
+    /* background-color: rgb(166, 144, 255); */
+    max-height: 146.7mm;
+    /height: 100vh;/
+    max-width: 71.5mm;
+    margin: 45px;
+    padding: 2em;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(38, 46, 64, 0.782);
+    /* rgba(17, 25, 40, 0.75) */
+    /* border: 2px solid rgb(255, 255, 255); */
+    box-shadow: rgba(0, 0, 0, 1) 0px 22px 70px 4px;
+    /* border-radius: 2em; */
+    font-size: 11px;
+}
+
+#top_ribbon {
+    margin-top: 10%;
+    /* border: 2px solid purple; */
+    display: flex;
+    gap: 11em;
+    /* add 20px gap between flex items */
+}
+
+#left,
+#right {
+    display: flex;
+    text-wrap: nowrap;
+}
+
+#dots {
+    display: block;
+    font-weight: bolder;
+    color: rgba(240, 248, 255, 0.439);
+    letter-spacing: 1.5px;
+}
+
+#battery {
+    display: inline-flex;
+    height: 1.5rem;
+    /* border: 2px solid indianred; */
+    position: relative;
+    bottom: 0.38rem;
+    color: white;
+}
+
+#squares {
+    /* border: 0.1px solid white; */
+    margin-top: 0.7rem;
+    display: flex;
+}
+
+#leftsqr,
+#rightsqr {
+    display: inline-flex;
+    height: 6.5rem;
+    width: 6.5rem;
+    
+}
+
+#leftsqr {
+    /* border: 2px solid violet; */
+    border-radius: 0.9rem;
+    background-color: rgba(17, 25, 40, 0.685);
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    max-width: 50em;
+    align-items: center;
+}
+
+#airplane {
+    display: inline-flex;
+    height: 2.4rem;
+    background-color: rgba(13, 100, 252, 0.838);
+    border-radius: 50%;
+}
+
+#hotspot {
+    display: inline-flex;
+    height: 2.4rem;
+    background-color: rgba(95, 95, 95, 0.358);
+    border-radius: 50%;
+}
+
+#wifi {
+    display: inline-flex;
+    height: 2.4rem;
+    background-color: rgba(95, 95, 95, 0.358);
+    border-radius: 50%;
+}
+
+#bluetooth {
+    display: inline-flex;
+    height: 2.4rem;
+    background-color: rgba(95, 95, 95, 0.358);
+    border-radius: 50%;
+}
+
+#rightsqr {
+    position: absolute;
+    left: 12.5em;
+    align-self: flex-end;
+    /* border: 2px solid violet; */
+    border-radius: 0.9rem;
+    background-color: rgba(17, 25, 40, 0.685);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 50em;
+}
+
+#rtext {
+    color: rgba(255, 255, 255, 0.652);
+
+}
+
+#rmedia {
+    position: absolute;
+    bottom: 0.5rem;
+}
+
+#prev,
+#play,
+#next {
+    display: inline-flex;
+}
+
+#prev,
+#next {
+    color: rgba(240, 255, 255, 0.363);
+}
+
+#secondrow {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+#lsq {
+    min-width: 48%;
+    max-width: 48%;
+    height: 6.5rem;
+    /* border: 2px solid paleturquoise; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    #rotation {
+        display: inline-flex;
+        border-radius: 0.9rem;
+        /* border: 1px solid pink; */
+        background-color: rgba(17, 25, 40, 0.685);
+        height: 45%;
+        max-width: 45%;
+        flex-grow: 1;
+    }
+
+    #mute {
+        display: inline-flex;
+        border-radius: 0.9rem;
+        background-color: rgba(17, 25, 40, 0.685);
+        height: 45%;
+        max-width: 45%;
+        flex-grow: 1;
+        position: relative;
+        display: flex;
+        right: 0.2em;
+    }
+
+    #focus {
+        border-radius: 0.8rem;
+        background-color: rgba(17, 25, 40, 0.685);
+        display: inline-flex;
+        flex-direction: row;
+        height: 45%;
+        max-width: 98%;
+        flex-grow: 1;
+        margin-top: 1em;
+    }
+
+    #focustext {
+        display: flex;
+        top: 50%;
+        height: 100%;
+        align-items: center;
+    }
+}
+
+#rsq {
+    width: 50%;
+    height: 6.5rem;
+    /* border: 1px solid rgb(230, 176, 176); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    #brightness {
+        display: inline-flex;
+        /* border: 1px solid gray; */
+        height: 100%;
+        width: 43%;
+        border-radius: 0.8rem;
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(17, 25, 40, 0.685);
+        overflow: hidden;
+
+        svg
+        {
+            position: absolute;
+            width: 100%;
+            height: 60%;
+            top: 50px;
+            stroke: rgba(90, 89, 89, 0.52);
+            fill: rgba(90, 89, 89, 0.52);
+
+            rect{
+                fill: rgb(255, 255, 255);
+            }
+        
+        }
+    }
+
+    #volume {
+        display: inline-flex;
+        /* border: 1px solid gray; */
+        height: 100%;
+        width: 43%;
+        border-radius: 0.8rem;
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(17, 25, 40, 0.685);
+        overflow: hidden;
+
+        svg
+        {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 28px;
+            stroke: rgba(90, 89, 89, 0.52);
+            fill: rgba(90, 89, 89, 0.52);
+
+            rect{
+                fill: rgb(255, 255, 255);
+            }
+        
+        }
+    }
+}
+
+#thirdrow{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40%;
+    max-width: 13.5rem;
+    /* border: 2px solid palevioletred; */
+    justify-content: space-between;
+    align-items: center;
+
+    .boxes{
+        display: flex;
+        border-radius: 0.9rem;
+        background-color: rgba(17, 25, 40, 0.685);
+        height: 4.27em;
+        width: 4.27em;
+        max-width: 4.3em;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+}
+
+hr{
+    border-radius:10%;
+    width:50%;
+    margin:auto;
+}
