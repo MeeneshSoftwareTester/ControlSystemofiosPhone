@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckBox</title>
+    <style>
+        body {
+            background-color: rgb(84, 84, 84);
+            padding: 0;
+            margin: 10%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+}
+        h3{
+            color: rgb(113, 111, 65);
+            position: absolute;
+            top: 150px;
+            left: 500px;
+
+        }
+        .container {
+           
+         font-size: 20px;
+         color:  rgb(113, 111, 65);
+         background: none;
+         display: inline-block;
+         width: 200px;
+         height: 10vh;
+         padding: 100px;
+         border: 1px solid #ddd;
+         border-radius: 10px;
+         background-color: rgb(197, 202, 202);
+         margin-bottom: 10px;
+        
+  
+        }
+        .CheckBox{
+            cursor: pointer;
+            position: absolute;
+            left: 500px;
+        }
+       
+    </style>
+</head>
+<body> 
+    <div class="container">
+        <h3>CheckBox</h3>
+       
+        <div class="CheckBox">
+           
+            <label for="CheckBox1">CheckBox1</label>
+            <input type="checkbox" id="CheckBox1"><br>
+
+            <label for="CheckBox2">CheckBox2</label>
+            <input type="checkbox" id="CheckBox2"><br>
+
+            <label for="CheckBox3">CheckBox3</label>
+            <input type="checkbox" id="CheckBox3"><br>
+        </div>        
+    </div>
+</body>
+</html>
