@@ -1,0 +1,322 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Meenu Singh Logo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #efb8b8;
+            font-family: Arial, sans-serif;
+        }
+
+        .logo {
+            width: 500px;
+            height: 100px;
+            border-radius: 10px;
+            border: 0.5rem solid black;
+            font-size: 80px;
+            font-weight: bold;
+            position: relative;
+           
+        }
+
+        .logo span {
+            position: relative;
+            display: inline-block;
+            color: #fff;
+            animation: textColorChange 5s infinite;
+        }
+
+        .logo span:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .logo span:nth-child(2) {
+            animation-delay: 0.5s;
+        }
+
+        .logo span:nth-child(3) {
+            animation-delay: 1s;
+        }
+
+        .logo span:nth-child(4) {
+            animation-delay: 1.5s;
+        }
+
+        .logo span:nth-child(5) {
+            animation-delay: 2s;
+        }
+
+        .logo span:nth-child(6) {
+            animation-delay: 2.5s;
+        }
+
+        .logo span:nth-child(7) {
+            animation-delay: 3s;
+        }
+
+        .logo span:nth-child(8) {
+            animation-delay: 3.5s;
+        }
+
+        .logo span:nth-child(9) {
+            animation-delay: 4s;
+        }
+
+        .logo span:nth-child(10) {
+            animation-delay: 4.5s;
+        }
+
+        @keyframes textColorChange {
+            0%, 100% {
+                color: #4285f4; /* blue */
+                text-shadow: 0 0 10px #4285f4;
+            }
+            16.67% {
+                color: #ea4335; /* red */
+                text-shadow: 0 0 10px #ea4335;
+            }
+            33.34% {
+                color: #fbbc05; /* yellow */
+                text-shadow: 0 0 10px #fbbc05;
+            }
+            50% {
+                color: #34a853; /* green */
+                text-shadow: 0 0 10px #34a853;
+            }
+            66.67% {
+                color: #4285f4; /* blue */
+                text-shadow: 0 0 10px #4285f4;
+            }
+            83.34% {
+                color: #ea4335; /* red */
+                text-shadow: 0 0 10px #ea4335;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <span>M</span><span>e</span><span>e</span><span>n</span><span>u</span>
+        <span>S</span><span>i</span><span>n</span><span>g</span><span>h</span>
+    </div>
+</body>
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Meenu Singh Logo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: whitesmoke;
+            font-family: Arial, sans-serif;
+          
+        }
+    
+
+        .logo {
+            width: 500px;
+            height: 100px;
+            border-radius: 10px;
+            border: 0.5rem solid black;
+            font-size: 80px;
+            font-weight: bold;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: rotateLogo 10s linear infinite;
+        }
+
+        .logo span {
+            position: relative;
+            display: inline-block;
+            color: #fff;
+            animation: textColorChange 5s infinite, slideIn 2s ease-out infinite alternate;
+        }
+
+        .logo span:nth-child(1) {
+            animation-delay: 0s, 0s;
+        }
+
+        .logo span:nth-child(2) {
+            animation-delay: 0.5s, 0.2s;
+        }
+
+        .logo span:nth-child(3) {
+            animation-delay: 1s, 0.4s;
+        }
+
+        .logo span:nth-child(4) {
+            animation-delay: 1.5s, 0.6s;
+        }
+
+        .logo span:nth-child(5) {
+            animation-delay: 2s, 0.8s;
+        }
+
+        .logo span:nth-child(6) {
+            animation-delay: 2.5s, 1s;
+        }
+
+        .logo span:nth-child(7) {
+            animation-delay: 3s, 1.2s;
+        }
+
+        .logo span:nth-child(8) {
+            animation-delay: 3.5s, 1.4s;
+        }
+
+        .logo span:nth-child(9) {
+            animation-delay: 4s, 1.6s;
+        }
+
+        .logo span:nth-child(10) {
+            animation-delay: 4.5s, 1.8s;
+        }
+
+        @keyframes textColorChange {
+            0%, 100% {
+                color: #4285f4; /* blue */
+                text-shadow: 0 0 10px #4285f4;
+            }
+            16.67% {
+                color: #ea4335; /* red */
+                text-shadow: 0 0 10px #ea4335;
+            }
+            33.34% {
+                color: #fbbc05; /* yellow */
+                text-shadow: 0 0 10px #fbbc05;
+            }
+            50% {
+                color: #34a853; /* green */
+                text-shadow: 0 0 10px #34a853;
+            }
+            66.67% {
+                color: #4285f4; /* blue */
+                text-shadow: 0 0 10px #4285f4;
+            }
+            83.34% {
+                color: #ea4335; /* red */
+                text-shadow: 0 0 10px #ea4335;
+            }
+        }
+
+        @keyframes rotateLogo {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes slideIn {
+            0% {
+                transform: translateX(-30px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+ 
+
+        
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <span>M</span><span>e</span><span>e</span><span>n</span><span>u</span>
+        <span>S</span><span>i</span><span>n</span><span>g</span><span>h</span>
+    </div>
+
+</body>
+</html>
+
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Canvas Fullscreen</title>
+     <style>
+         body {
+             margin: 0;
+             overflow: hidden;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             height: 100vh;
+             background-color: black;
+         }
+ 
+         #canvas {
+             background-color: black;
+         }
+     </style>
+ </head>
+ <body>
+     <canvas id="canvas"></canvas>
+ 
+     <script>
+         const canvas = document.getElementById('canvas');
+         const ctx = canvas.getContext('2d');
+ 
+         // Resize the canvas to fill the browser window dynamically
+         function resizeCanvas() {
+             canvas.width = window.innerWidth;
+             canvas.height = window.innerHeight;
+         }
+ 
+         // Initial resize to fill the screen
+         resizeCanvas();
+ 
+         // Redraw canvas on window resize
+         window.addEventListener('resize', resizeCanvas);
+ 
+         // Drawing example: a rotating square
+         let angle = 0;
+ 
+         function draw() {
+             ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+ 
+             ctx.save(); // Save the current drawing state
+             ctx.translate(canvas.width / 2, canvas.height / 2); // Move to the center of the canvas
+             ctx.rotate(angle); // Rotate the canvas
+ 
+             ctx.fillStyle = 'red';
+             ctx.fillRect(-50, -50, 100, 100); // Draw a red square
+ 
+             ctx.restore(); // Restore the previous drawing state
+ 
+             angle += 0.01; // Increase the angle for the next frame
+ 
+             requestAnimationFrame(draw); // Call draw again for the next frame
+         }
+ 
+         draw(); // Start the drawing loop
+     </script>
+ </body>
+ </html>
+ 
