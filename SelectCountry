@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select your Country</title>
+    <style>
+       body{
+        padding: 50px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+       } 
+       h1{
+        font-size: 20px;
+        color: cadetblue;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+       .form-background{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: url('https://images.pexels.com/photos/16585270/pexels-photo-16585270/free-photo-of-boardwalk-on-rock-formation-on-sea-coast.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out;    }
+       .Select-Country{
+        font-size: 20px;
+        background-color: white;
+        width: 150px;
+        height: 30vh;
+        padding: 2rem;
+        border: 1px solid #ddd;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+
+       }
+    </style>
+</head>
+<body>
+    <div class="form-background                                                                                                                                           ">
+ <div class="Select-Country">
+      <h1>Select your Country</h1>
+    <select id="Country" name="Country"></br>
+        <br><option value="">Select Country</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+       <option value="Canada">Canada</option>
+       <option value="UK">UK</option>  
+       </select></b></br>
+ </div> </div>  
+</body>
+</html>
