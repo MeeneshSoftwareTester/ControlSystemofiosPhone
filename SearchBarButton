@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SearchBar</title>
+    <style>
+        body {
+            background-color: white;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 400px;
+            padding: 40px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+        }
+        .search-box {
+            display: flex;
+            align-items: center;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 5px;
+            background-color: #0a491b;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: none;
+            color: white;
+            outline: none;
+            font-size: 16px;
+        }
+        .search-icon {
+            font-size: 24px;
+            cursor: pointer;
+            color: white;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Search products" id="input">
+            <ion-icon class="search-icon" name="search"></ion-icon>
+        </div>
+    </div>
+    <!-- Ionicons CDN -->
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.js"></script>
+</body>
+</html>
